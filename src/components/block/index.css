@@ -1,0 +1,41 @@
+/* Block Texte :*/
+
+.block {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .block-texte {
+    flex: 1;
+    margin: 140px;
+    flex-wrap: wrap;
+  }
+  
+  .block-image {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img{
+    width: 360px;
+    height: 380px;
+  }
+  @media screen and (max-width: 1090px) {
+    .block{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .block-texte{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .img{
+        padding: 0;
+    }
+    
+  }

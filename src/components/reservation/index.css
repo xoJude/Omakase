@@ -1,0 +1,49 @@
+.reservation{
+  width: 100vw;
+    height: 350px;
+    background-size: cover;
+    background-position: center; 
+    background-image: url("../../assets/img-reservation.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .text-reservation{
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    font-size: 40px;
+    line-height: normal;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+  }
+  
+  .button-reserve{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: unset;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .button-reserve:hover{
+    background-color: rgb(247, 197, 34);
+    color: black;
+    transition: 0.45s;
+    cursor: pointer;
+  }
+  .certif-tripo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-tripo{
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  }

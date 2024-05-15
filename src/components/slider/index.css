@@ -1,0 +1,49 @@
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-container {
+  max-width: 500px;
+  background-color: transparent;
+}
+.slider-container .slider {
+  animation: slider 120s backwards ease-in-out infinite;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-container img {
+  width: 500px;
+  height: 290px;
+}
+
+@keyframes slider {
+  0% {transform: translateX(-100%);}
+  5% {transform: translateX(-200%);}
+  10% {transform: translateX(-300%);}
+  15% {transform: translateX(-400%);}
+  20% {transform: translateX(-500%);}
+  25% {transform: translateX(-600%);}
+  30% {transform: translateX(-700%);}
+  35% {transform: translateX(-800%);}
+  40% {transform: translateX(-900%);}
+  45% {transform: translateX(-1000%);}
+  50% {transform: translateX(-1100%);}
+  55% {transform: translateX(-1000%);}
+  60% {transform: translateX(-900%);}
+  65% {transform: translateX(-800%);}
+  70% {transform: translateX(-700%);}
+  75% {transform: translateX(-600%);}
+  80% {transform: translateX(-500%);}
+  85% {transform: translateX(-400%);}
+  90% {transform: translateX(-300%);}
+  95% {transform: translateX(-200%);}
+  100% {transform: translateX(-100%);}
+
+} 
+
+

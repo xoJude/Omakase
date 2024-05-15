@@ -1,0 +1,14 @@
+.block-titre{
+  position: static;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    width: 100vw;
+  }
+@media screen and (max-width: 1090px) {
+  .block-titre{
+    padding-left: 0;
+    justify-content: center;
+  }
+}
